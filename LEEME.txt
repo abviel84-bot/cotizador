@@ -1,0 +1,29 @@
+COTIZADOR - TRYHARD WEB SOLUTION
+================================
+
+Archivos (súbelos todos juntos, en la misma carpeta):
+  index.html, jspdf.umd.min.js, manifest.json, sw.js e íconos .png
+
+PUBLICARLO GRATIS EN GITHUB PAGES
+1. En github.com crea un repositorio nuevo, por ejemplo "cotizador".
+2. Toca "Add file" > "Upload files" y arrastra TODOS los archivos de esta carpeta. Toca "Commit changes".
+3. Ve a Settings > Pages. En "Branch" escoge "main" y "/ (root)". Guarda.
+4. En 1-2 minutos tu cotizador estará en: https://TU-USUARIO.github.io/cotizador/
+
+INSTALARLO
+- iPhone (Safari): abre el link > botón compartir > "Añadir a pantalla de inicio".
+- Android (Chrome): abre el link > menú ⋮ > "Instalar app" o "Añadir a pantalla principal".
+- Computadora (Chrome o Edge): abre el link > ícono de instalar en la barra de dirección (o menú > Instalar).
+Después de abrirlo una vez, funciona sin internet.
+
+TUS DATOS
+- Precios, datos y cotizaciones se guardan en cada dispositivo (no en GitHub).
+  Aunque el link sea público, nadie más ve tus clientes ni tus cotizaciones.
+- Para pasar tus datos de la computadora al teléfono: Ajustes > Exportar respaldo,
+  envíate el archivo y en el otro dispositivo usa Importar respaldo.
+- Haz un respaldo de vez en cuando. Si borras los datos del navegador, se borran las cotizaciones.
+
+HACERLE CAMBIOS
+- Edita index.html y vuelve a subirlo a GitHub.
+- Cambia el número en la primera línea útil de sw.js (cotizador-v1 > cotizador-v2)
+  para que los teléfonos reciban la versión nueva.
